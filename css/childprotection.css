@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top:0;
+  left:100%;
+  margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
+
+li.open > a > span {
+  border-top: 0px !important;
+  border-bottom: 4px dashed !important;
+}
+.child-protection-nav {
+    position: sticky !important;
+  }
+  
+  .child-protection {
+    width: 80%;
+    border: 1px solid #dcdbdb;
+  }
+  
+  .child-protection-banner {
+    width: 100%;
+    margin: 10px 10px 16px;
+    text-align: center;
+  }
+  
+  .child-protection-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .child-pr2 {
+    width: 18%;
+  }
+  .nav-logo {
+    height: 60px;
+    width: 70px;
+    background-color: rgb(208, 168, 57);
+    padding: 2px;
+    border-radius: 90px;
+  }
+  #naviteam1,
+  #naviteam2,
+  #naviteam3,
+  #naviteam4,
+  #naviteam5,
+  #naviteam6,
+  #naviteam7,
+  #naviteam8,
+  #naviteam9{
+    font-weight: bold;
+    color: #323232;
+    font-family: "roboto";
+  }
+  .logo1 {
+  
+    border-radius: 100px;
+    height: 45px;
+    width: 50px;
+    background-color:#D0A839;
+  }
+  #nav-donate-btn,
+#donatebut {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 12px;
+}
