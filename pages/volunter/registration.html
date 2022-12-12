@@ -1,33 +1,99 @@
-<div class="volunter-registration container">
-  <div class="vreg-form card">
-    <h2>Volunter Registration</h2>
-    <!-- <form>
-      <div class="form-group">
-        <label for="name">Email address<sub class="sub">*</sub></label>
-        <input type="text" class="form-control" id="vreg-name" aria-describedby="name"
-          placeholder="Enter name">
+<!-- MultiStep Form -->
+<div class="volunter-registration" id="">
+  <!-- <div class="volunter-registration" id="v-registration"> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <section id="msform">
+          <!-- progressbar -->
+          <!-- <ul id="progressbar">
+            <li class="active">Personal Details</li>
+            <li>Contact Details</li>    
+          </ul> -->
+          <!-- fieldsets -->
+          <fieldset>
+            <h2 class="fs-title">Personal Details</h2>
+            <div class="name-select">
+              <label class="">
+                <select class="select-vrOption">
+                  <option>Select</option>
+                  <option>Mr.</option>
+                  <option>Ms.</option>
+                  <option>Mrs.</option>
+                  <option>Dr.</option>
+                </select>
+              </label>
+              <input type="text" name="name" class="name col-9" placeholder="Full Name" />
+
+            </div>
+            <input type="email" name="email" class="email" placeholder="Enter Email" />
+            <input type="phone" name="mobile" class="mobile" placeholder="Mobile Number" />
+            <h2 class="fs-title">Contact Details</h2>
+            <div class="d-flex justify-content-between">
+              <!-- <span class=""> -->
+              <!-- <label>Citizenship: -->
+                <select class="citizen">
+                  <option disabled>Citizenship</option>
+                  <option>Indian</option>
+                  <option>American</option>
+                  <option>China</option>
+                  <option>South Africa</option>
+                </select>
+              <!-- </label> -->
+              <!-- </span> -->
+              <!-- <span class=""> -->
+              <!-- <label>Gender: -->
+                <select class="gender">
+                  <option disabled>Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Other</option>
+                </select>
+              <!-- </label> -->
+              <!-- </span> -->
+            </div>
+            <input type="date" name="" placeholder="DOB" class="dob" />
+            <input type="text" name="Homeadress" placeholder="Home Address" class="homeaddress" />
+            <input type="text" name="country" placeholder="Country" class="country" />
+            <input type="text" name="state" placeholder="State" class="state" />
+            <input type="text" name="city" placeholder="City" class="city" />
+            <input type="number" name="pincode" placeholder="Pincode" class="pincode" />
+
+            <buton class="next action-button">Submit</buton>
+            <!-- <input type="button" name="next" class="next action-button" value="Next" /> -->
+          </fieldset>
+          <!-- <fieldset>
+           <h2 class="fs-title">Contact Details</h2>
+            <div class="row">
+            <div class="col-6">
+              <label>Citizenship:</label>
+              <select class="">
+                <option>Indian</option>
+                <option>American</option>
+                <option>China</option>
+                <option>South Africa</option>
+              </select>
+            </div>
+            <div class="col-6">
+            <label>Gender:</label>
+              <select class="">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>              
+              </select>
+             </div>
+             </div>
+            <input type="text" name="" placeholder="DOB" />
+            <input type="text" name="Homeadress" placeholder="Home Address" />
+            <input type="text" name="country" placeholder="Country" />
+            <input type="text" name="state" placeholder="State" />
+            <input type="text" name="city" placeholder="City" />
+            <input type="text" name="pincode" placeholder="Pincode" />
+            <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+            <input type="submit" name="submit" class="submit action-button" value="Finish" />
+          </fieldset> -->
+        </section>
       </div>
-      <div class="form-group">
-        <label for="phone">Phone Number<sub class="sub">*</sub></label>
-        <input type="phone" class="form-control" id="vreg-mob" aria-describedby="mobileNumber"
-          placeholder="Mobile number">
-      </div>
-      <div class="form-group">
-        <label for="email">Email address<sub class="sub">*</sub></label>
-        <input type="email" class="form-control" id="vreg-email" aria-describedby="emailAddress"
-          placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div><div class="form-group">
-        <label for="address">Address<sub class="sub">*</sub></label>
-        <textarea class="form-control" id="vreg-textarea" rows="3"></textarea>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password<sub class="sub">*</sub></label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div>
-        <button type="submit" class="btn btn-primary vreg-submit">Submit</button>
-      </div>
-    </form> -->
+    </div>
   </div>
 </div>
